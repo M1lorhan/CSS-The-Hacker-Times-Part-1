@@ -29,6 +29,12 @@ nav li {
     border-top: 2px solid #eee; 
     border-bottom: 2px solid #eee;
 }
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}    
 
 ul {
     list-style: none;
@@ -63,7 +69,7 @@ section {
 .more-more-articles{
     width: 100%;
     display: inline-grid;
-    grid-template-columns: 275px 275px 275px;
+    grid-template-columns: 276px 276px 276px;
     grid-template-rows: auto;
     grid-template-area:
         .meeting .hoodies .typing:
